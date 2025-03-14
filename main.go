@@ -8,10 +8,11 @@ import (
 func main() {
 	tutorials.Hello()
 	fmt.Println(tutorials.Add(12, 6))
-	result, err := fmt.Println(tutorials.Divide(12, 0))
+	result, err := tutorials.Divide(12, 0)
 	if err != nil {
-		println(err)
+		fmt.Println(err)
 	} else {
-		println(result)
+		fmt.Println(result)
 	}
+	tutorials.RandomNumber()
 }
