@@ -14,5 +14,5 @@ func main() {
 	} else {
 		fmt.Println(result)
 	}
-	tutorials.RandomNumber()
+	tutorials.Array()
 }
