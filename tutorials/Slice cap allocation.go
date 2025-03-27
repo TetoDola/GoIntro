@@ -12,7 +12,7 @@ func Allocate() {
 
 	fmt.Printf("Total time without preallocation: %v\n", timeLoop(testslice, n))
 	fmt.Printf("Total time with preallocation: %v", timeLoop(testslice2, n))
-
+	//
 }
 
 func timeLoop(slice []int, n int) time.Duration {
