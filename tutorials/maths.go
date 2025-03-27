@@ -18,3 +18,11 @@ func Add(num1 int, num2 int) string {
 
 	return "The result is: " + strconv.Itoa(num1+num2)
 }
+
+func Multiply(num1 int, num2 int) int {
+	return (num1 * num2)
+}
+
+func Substract(num1 int, num2 int) int {
+	return (num1 - num2)
+}

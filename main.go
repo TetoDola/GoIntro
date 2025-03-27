@@ -14,5 +14,7 @@ func main() {
 	} else {
 		fmt.Println(result)
 	}
-	tutorials.Array()
+	s := tutorials.Substract(5, 8)
+	fmt.Println(s)
+	tutorials.Allocate()
 }
